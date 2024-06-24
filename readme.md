@@ -41,7 +41,7 @@ When set to `production`, the dev tools will not be available.
 ## Testing
 ## Path Changing
 
-It is necessary to change the binary and app path accordingly in the app.e2e.js
+It is necessary to change the binary and app path accordingly in the wdio.conf.js
 
 ### End-to-End (E2E) Testing
 
