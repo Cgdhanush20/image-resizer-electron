@@ -4,10 +4,9 @@
 2.Empty Input Test: Tests the behavior of someFunction() when passed an empty string.
 3.Invalid Input Test: Tests if someFunction() throws an error when passed null.
 4.Valid Input Test: Tests the output of someFunction() with valid input.
-5.Integration Test: Tests the integration of SomeComponent with another component.
+5.Integration Test: Tests the integration of SomeComponent with another component./*/
 const { expect } = require('chai');
-const SomeComponent = require('../../src/components/SomeComponent'); /*/
-
+const SomeComponent = require('../../src/components/SomeComponent'); 
 describe('SomeComponent Unit Tests', () => {
 
     it('should perform a specific function correctly', () => {
