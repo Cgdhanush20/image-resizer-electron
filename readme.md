@@ -36,3 +36,14 @@ There are multiple ways to package Electron apps. I would suggest [Electron Forg
 If your `NODE_ENV` is set to `development` then you will have the dev tools enabled and available in the menu bar. It will also open them by default.
 
 When set to `production`, the dev tools will not be available.
+# Image Resizer Electron App
+
+## Testing
+
+### End-to-End (E2E) Testing
+
+E2E tests are implemented using WebdriverIO. To run the tests:
+
+```sh
+npm run wdio
+
