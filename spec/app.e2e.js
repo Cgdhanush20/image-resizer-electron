@@ -8,8 +8,8 @@ describe('Image Resizer App', () => {
             capabilities: {
                 browserName: '',
                 'goog:chromeOptions': {
-                    binary: './path/to/electron', // Path to Electron binary
-                    args: ['app=./path/to/app']  // Path to your Electron app
+                    binary: '/Users/cgdhanush/image-resizer-electron/node_modules/electron/dist/Electron',
+                    args: ['app=/Users/cgdhanush/image-resizer-electron']  // Path to your Electron app
                 }
             }
         });
