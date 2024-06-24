@@ -45,6 +45,7 @@ When set to `production`, the dev tools will not be available.
 E2E tests are implemented using WebdriverIO. To run the tests:
 
 ```sh
+cd image-resizer-electron
 npm install chai --save-dev
 npm test
 ```
