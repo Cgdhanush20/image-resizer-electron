@@ -49,3 +49,4 @@ cd image-resizer-electron
 npm install chai --save-dev
 npm test
 ```
+if you dont get output or if you encounter any errors then replace .js to .cjs to solve the error
