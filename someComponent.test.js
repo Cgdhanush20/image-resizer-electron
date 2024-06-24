@@ -30,7 +30,38 @@ describe('SomeComponent Unit Tests', () => {
         const result = SomeComponent.integrateWith(anotherComponent);
         expect(result).to.equal('SomeComponent: another component result');
     });
+    it('should handle numeric input correctly', () => {
+    const input = 123;
+    const expectedOutput = 'processed 123';
+    const result = SomeComponent.someFunction(input);
+    expect(result).to.equal(expectedOutput);
+    });
 
+    it('should handle boolean input correctly', () => {
+    const input = true;
+    const expectedOutput = 'processed true';
+    const result = SomeComponent.someFunction(input);
+    expect(result).to.equal(expectedOutput);
+    });
+
+    it('should handle array input correctly', () => {
+    const input = ['a', 'b', 'c'];
+    const expectedOutput = 'processed a, b, c';
+    const result = SomeComponent.someFunction(input);
+    expect(result).to.equal(expectedOutput);
+    });
+
+    it('should handle object input correctly', () => {
+    const input = { key1: 'value1', key2: 'value2' };
+    const expectedOutput = 'processed key1: value1, key2: value2';
+    const result = SomeComponent.someFunction(input);
+    expect(result).to.equal(expectedOutput);
+    });
+
+    it('should handle undefined input correctly', () => {
+    const result = SomeComponent.someFunction(undefined);
+    expect(result).to.equal('default output');
+    });
     // Add more unit tests as needed
 });
 
