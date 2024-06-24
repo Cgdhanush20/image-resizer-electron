@@ -7,8 +7,8 @@ exports.config = {
     capabilities: [{
         browserName: 'chrome',
         'goog:chromeOptions': {
-            binary: './path/to/electron', // Path to Electron binary
-            args: ['app=./path/to/app']  // Path to Electron app
+           binary: '/Users/cgdhanush/image-resizer-electron/node_modules/electron/dist/Electron',
+            args: ['app=/Users/cgdhanush/image-resizer-electron/Electron.app/Contents/MacOS/Electron']   // Path to Electron app
         }
     }],
     logLevel: 'info',
@@ -84,7 +84,12 @@ exports.config = {
         platformName: 'Mac',
         'appium:automationName': 'Mac2',
         'appium:bundleId': 'com.apple.calculator'
-    }],
+    },{
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+            binary: '/Users/cgdhanush/image-resizer-electron/node_modules/electron/dist/Electron',
+            args: ['app=/Users/cgdhanush/image-resizer-electron/Electron.app/Contents/MacOS/Electron']  // Path to your Electron app
+        }],
 
     //
     // ===================
