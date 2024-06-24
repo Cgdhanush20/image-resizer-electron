@@ -1,6 +1,12 @@
 // test/unit/someComponent.test.js
+/*/this will do 5 different test like:
+1.Specific Function Test: Tests the specific functionality of someFunction() with default input.
+2.Empty Input Test: Tests the behavior of someFunction() when passed an empty string.
+3.Invalid Input Test: Tests if someFunction() throws an error when passed null.
+4.Valid Input Test: Tests the output of someFunction() with valid input.
+5.Integration Test: Tests the integration of SomeComponent with another component.
 const { expect } = require('chai');
-const SomeComponent = require('../../src/components/SomeComponent'); // Adjust this path based on your project structure
+const SomeComponent = require('../../src/components/SomeComponent'); /*/
 
 describe('SomeComponent Unit Tests', () => {
 
