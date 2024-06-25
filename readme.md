@@ -38,7 +38,7 @@ If your `NODE_ENV` is set to `development` then you will have the dev tools enab
 When set to `production`, the dev tools will not be available.
 # Image Resizer Electron App
 
-## Setup WDIO
+# Setup WDIO
 Install WDIO and necessary dependencies:
 ```sh
 npm init wdio .
@@ -66,7 +66,7 @@ When running wdio setup, choose the options as follows:
   
   10.What is the base URL? http://localhost
 
-#Install mocha
+## Install mocha
 ```sh
 npm install mocha chai --save-dev
 ```
