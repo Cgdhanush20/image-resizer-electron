@@ -40,24 +40,22 @@ When set to `production`, the dev tools will not be available.
 
 ## Setup WDIO
 Install WDIO and necessary dependencies:
-sh
-Copy code
 ```sh
 npm init wdio .
 ```
 Configure WDIO:
 When running wdio setup, choose the options as follows:
 
-Where should your tests be launched? local
-Where is your automation backend located? On my local machine
-Which framework do you want to use? mocha
-Do you want to use a compiler? No
-Where are your test specs located? ./test/specs//*.js**
-Do you want WebdriverIO to autogenerate some test files? Yes
-Which reporter do you want to use? spec
-Do you want to add a plugin to your test setup? No
-Do you want to add a service to your test setup? electron
-What is the base URL? http://localhost
+  1.Where should your tests be launched? local
+  2.Where is your automation backend located? On my local machine
+  3.Which framework do you want to use? mocha
+  4.Do you want to use a compiler? No
+  5.Where are your test specs located? ./test/specs//*.js**
+  6.Do you want WebdriverIO to autogenerate some test files? Yes
+  7.Which reporter do you want to use? spec
+  8.Do you want to add a plugin to your test setup? No
+  9.Do you want to add a service to your test setup? electron
+  10.What is the base URL? http://localhost
 
 #Install mocha
 ```sh
