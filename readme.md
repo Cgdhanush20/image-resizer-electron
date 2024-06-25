@@ -38,6 +38,31 @@ If your `NODE_ENV` is set to `development` then you will have the dev tools enab
 When set to `production`, the dev tools will not be available.
 # Image Resizer Electron App
 
+## Setup WDIO
+Install WDIO and necessary dependencies:
+sh
+Copy code
+```sh
+npm init wdio .
+```
+Configure WDIO:
+When running wdio setup, choose the options as follows:
+
+Where should your tests be launched? local
+Where is your automation backend located? On my local machine
+Which framework do you want to use? mocha
+Do you want to use a compiler? No
+Where are your test specs located? ./test/specs//*.js**
+Do you want WebdriverIO to autogenerate some test files? Yes
+Which reporter do you want to use? spec
+Do you want to add a plugin to your test setup? No
+Do you want to add a service to your test setup? electron
+What is the base URL? http://localhost
+
+#Install mocha
+```sh
+npm install mocha chai --save-dev
+```
 ## Testing
 ## Path Changing
 
